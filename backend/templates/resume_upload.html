@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume and Job Description Upload</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <header>
+    <div class="logo">Career Assistant</div>
+  </header>
+  
+  <div class="container">
+    <div class="upload-container">
+      <h1>Upload Your Resume & Enter Job Description</h1>
+      <!-- Combined form for PDF and job description -->
+      <form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="pdf">Select Resume (PDF):</label>
+          <input type="file" name="pdf" id="pdf" accept=".pdf" required>
+        </div>
+        <div class="form-group">
+          <label for="user_string">Job Description:</label>
+          <textarea name="user_string" id="user_string" placeholder="Enter the job description here..." rows="5" required></textarea>
+        </div>
+        <button type="submit" class="upload-btn">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

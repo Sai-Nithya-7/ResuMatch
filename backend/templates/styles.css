@@ -1,0 +1,221 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+/* General Styles */
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000; /* Light beige */
+    color: #ffffff; /* Rich brown */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full-screen height */
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    height: 90vh; /* Increased height to 90% of the viewport */
+    border: 10px solid #000000;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    background: rgb(0, 3, 48);
+    text-align: center;
+}
+
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    background-color: #000000;
+    color: white;
+}
+
+/* Logo */
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, rgba(174, 174, 174, 0.9), rgba(5, 0, 72, 0.9));
+}
+
+/* Options Section */
+.options {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.option {
+    width: 45%;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 3px 8px rgba(78, 78, 78, 0.1);
+    cursor: pointer;
+}
+
+.recruiter {
+    background-color: #000000;
+}
+
+.applicant {
+    background-color: #000000;
+    position: relative;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #454545;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #303030;
+}
+
+/* Job Applicant Page */
+.sub-options-page {
+    padding: 40px 20px;
+}
+
+/* .sub-option {
+    padding: 12px;
+    background-color: #d1a075;
+    margin: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.sub-option:hover {
+    background-color: #b58e66;
+} */
+.sub-option {
+    display: block;
+    background-color: #575757; /* Match the button color */
+    color: #ffffff; /* Text color */
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none; /* Remove default underline */
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.sub-option:hover {
+    background-color: #6a6a6a; /* Slightly darker on hover */
+}
+
+/* .upload-box {
+    background-color: #d89b6c;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.upload-box input {
+    margin: 10px 0;
+}
+
+.upload-btn {
+    background-color: #6a3f1a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-btn:hover {
+    background-color: #8b572a;
+}
+
+
+    */
+    .upload-box {
+        background-color: #d89b6c;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        border: 4px solid #8b5e3b !important;  /* Force the border */
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    
+    /* File input */
+    .upload-box input {
+        background: white;
+        padding: 8px;
+        border-radius: 5px;
+    }
+    
+    /* Upload button */
+    .upload-btn {
+        background-color: #5a3d2b;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .upload-btn:hover {
+        background-color: #3d2a1b;
+    }
+   
+    
